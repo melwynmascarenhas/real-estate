@@ -11,11 +11,6 @@ const House = ({ img, price, address }) => {
     },
   }));
 
-  const InfoBox = styled(Box)(() => ({
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-  }));
 
   const ImgContainer = styled(Box)(() => ({
     width: "100%",

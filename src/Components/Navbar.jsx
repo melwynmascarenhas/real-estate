@@ -20,8 +20,6 @@ import {
   styled,
 } from "@mui/material";
 import { useState } from "react";
-import { LinkOffTwoTone } from "@mui/icons-material";
-
 export const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState({
     left: false,
